@@ -1,0 +1,16 @@
+batch_size: 64
+
+learning_rate: 0.00025
+memory_size: 50000
+batch_size: 100
+
+gamma: 0.9
+epsilon: 0.99
+explore_start: 1.0            # exploration probability at start
+explore_stop: 0.01            # minimum exploration probability 
+decay_rate: 0.00001           # exponential decay rate for exploration prob
+decay_step: 0
+new: True
+
+total_episodes: 100           # Total episodes for training
+max_steps: 50000              # Max possible steps in an episode
